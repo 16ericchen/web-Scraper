@@ -19,7 +19,6 @@ def parser(file):
     sheet = wb.active
     startRow = 1
     mfrPartNumber = []
-
     if sheet == None:
         print('Excel Format Cannot Be Read')
         print('Change File Type From Strict Open XML Spreadsheet To Regular XLSX Format')
